@@ -54,6 +54,22 @@ hr.star-dark:after {
   background-color: white;
 }
 
+hr.black-line {
+	border: 0;
+	width: 80%;
+	background-color: #000000;
+	color: #000000;
+	height: 1px;
+}
+
+hr.white-line {
+	border: 0;
+	width: 80%;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	height: 1px;
+}
+
 section {
   padding: 6rem 0;
 }
