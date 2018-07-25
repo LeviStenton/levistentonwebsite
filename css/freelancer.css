@@ -45,6 +45,19 @@ hr.white-line {
     margin-left: -200px;
 }
 
+.pb-3, .Mpy-3 {
+	padding-bottom: 0rem!important;
+}
+
+.pt-3, .Mpy-3 {
+	padding-bottom: 0rem!important;
+}
+
+.nav-link {
+    display: block;
+    padding: 0rem 0rem;
+}
+
 section {
   padding: 6rem 0;
 }
@@ -90,7 +103,7 @@ section h2 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-weight: 700;
+  font-weight: 0;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -116,7 +129,10 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+	width: 100%;
+	background-color: #FFFFFF;
+	color: #18BC9C;
+	height: 1px;
 }
 
 #mainNav .navbar-toggler {
@@ -142,12 +158,18 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
-    background: #18BC9C;
+	width: 100%;
+	background-color: #18BC9C;
+	color: #FFFFFF;
+	height: 1px;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
-    background: #18BC9C;
+    width: 100%;
+	background-color: #18BC9C;
+	color: #FFFFFF;
+	height: 1px;
+	padding-top: -5rem;
+    padding-bottom: 0.5rem;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
