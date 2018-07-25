@@ -1,4 +1,4 @@
-1body {
+body {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -133,7 +133,6 @@ section h2 {
 	width: 100%;
 	background-color: #FFFFFF;
 	color: #18BC9C;
-	height: 1px;
 }
 
 #mainNav .navbar-toggler {
@@ -163,15 +162,14 @@ section h2 {
 	top: 0rem;
 	bottom: 0rem;
 	width: 100%;
-	background-color: #18BC9C;
+	background: none;
+	border-bottom: 3px solid #18BC9C;
 	color: #FFFFFF;
-	height: 1px;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     width: 100%;
-	background-color: #18BC9C;
+	/*background-color: #18BC9C;*/
 	color: #FFFFFF;
-	height: 1px;
 	padding-top: -5rem;
     padding-bottom: 0.5rem;
   }
