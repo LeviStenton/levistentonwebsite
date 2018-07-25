@@ -163,7 +163,7 @@ section h2 {
 	bottom: 0rem;
 	width: 100%;
 	background: none;
-	border-bottom: 3px solid #18BC9C;
+	border-bottom: 1px solid #18BC9C;
 	color: #FFFFFF;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
