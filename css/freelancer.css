@@ -53,9 +53,9 @@ hr.white-line {
 	padding-bottom: 0rem!important;
 }
 
-.nav-link {
+.nav-link {	
     display: block;
-    padding: 0rem 0rem;
+    padding: 0rem 0rem;		
 }
 
 section {
@@ -136,7 +136,7 @@ section h2 {
 }
 
 #mainNav .navbar-toggler {
-  font-size: 80%;
+  font-size: 100%;
   padding: 0.8rem;
 }
 
@@ -158,6 +158,9 @@ section h2 {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+	position: relative;
+	top: 0rem;
+	bottom: 0rem;
 	width: 100%;
 	background-color: #18BC9C;
 	color: #FFFFFF;
@@ -173,7 +176,7 @@ section h2 {
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
