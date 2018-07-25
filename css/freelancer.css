@@ -118,6 +118,7 @@ section h2 {
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
   color: #fff;
+  font-size: 110%
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -350,11 +351,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-  color: #18BC9C;
+  color: #353839;
 }
 
 a:focus, a:hover, a:active {
-  color: #128f76;
+  color: #1B1B1B;
 }
 
 .btn {
@@ -378,13 +379,13 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #353839 ;
+  border-color: #ffffff;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #1B1B1B;
+  border-color: #ffffff;
 }
 
 .btn-secondary {
