@@ -36,6 +36,15 @@ hr.white-line {
 	height: 1px;
 }
 
+.Wrow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -200px;
+    margin-left: -200px;
+}
+
 .pb-3, .Mpy-3 {
 	padding-bottom: 0rem!important;
 }
