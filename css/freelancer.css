@@ -45,6 +45,15 @@ hr.white-line {
     margin-left: -200px;
 }
 
+.Prow {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .Mrow {
 	display: -ms-flexbox;
     display: flex;
