@@ -14,7 +14,7 @@ h6 {
 
 hr.black-line {
 	border: 0;
-	width: 80%;
+	width: 100%;
 	background-color: #000000;
 	color: #000000;
 	height: 1px;
@@ -30,7 +30,7 @@ hr.long-black-line {
 
 hr.white-line {
 	border: 0;
-	width: 80%;
+	width: 100%;
 	background-color: #FFFFFF;
 	color: #FFFFFF;
 	height: 1px;
@@ -43,6 +43,15 @@ hr.white-line {
     flex-wrap: wrap;
     margin-right: -200px;
     margin-left: -200px;
+}
+
+.Mrow {
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .pb-3, .Mpy-3 {
