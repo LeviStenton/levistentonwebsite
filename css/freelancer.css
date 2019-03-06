@@ -65,19 +65,19 @@ hr.white-line {
 
 .Srow::after {
   content: "";
-  clear: both;
+  clear: none;
   display: table;
 }
 
 .Scolumn {
   float: left;
   width: 20%;
-  padding: 50px;
+  padding: 30px;
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 500px) {
   .column {
-    width: 20%;
+    width: 100%;
   }
 }
 
