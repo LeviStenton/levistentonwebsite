@@ -63,6 +63,24 @@ hr.white-line {
     margin-left: -15px;
 }
 
+.Srow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.Scolumn {
+  float: left;
+  width: 20%;
+  padding: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
 .pb-3, .Mpy-3 {
 	padding-bottom: 0rem!important;
 }
