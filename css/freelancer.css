@@ -71,7 +71,7 @@ hr.white-line {
 
 .Scolumn {
   float: left;
-  width: 16.66%;
+  width: 25%;
   padding: 0.8rem;
 }
 
@@ -178,6 +178,22 @@ section h2 {
 #mainNav .navbar-toggler {
   font-size: 100%;
   padding: 0.8rem;
+}
+
+#mainNav .menu.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #18BC9C;
+    border: none;
+	border-radius: 0;
+}
+
+.menu.btn-primary {
+	border-radius: 0;
+	box-shadow
+}
+
+.menu.btn-primary:focus {
+	box-shadow: none;
+	outline: none;
 }
 
 @media (min-width: 992px) {
