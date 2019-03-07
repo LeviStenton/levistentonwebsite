@@ -72,7 +72,7 @@ hr.white-line {
 .Scolumn {
   float: left;
   width: 20%;
-  padding: 1rem;
+  padding: 0.8rem;
 }
 
 @media screen and (max-width: 500px) {
@@ -423,7 +423,7 @@ a:focus, a:hover, a:active {
 }
 
 .btn-primary {
-  background-color: #353839 ;
+  background-color: #1b1b1b ;
   border-color: #ffffff;
 }
 
