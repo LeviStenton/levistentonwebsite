@@ -72,7 +72,7 @@ hr.white-line {
 .Scolumn {
   float: left;
   width: 20%;
-  padding: 30px;
+  padding: 1rem;
 }
 
 @media screen and (max-width: 500px) {
