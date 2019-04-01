@@ -71,7 +71,7 @@ hr.white-line {
 
 .Scolumn {
   float: left;
-  width: 25%;
+  width: auto;
   padding: 0.8rem;
 }
 
