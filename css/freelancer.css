@@ -36,6 +36,25 @@ hr.white-line {
 	height: 1px;
 }
 
+.header {
+  background: rgb(255, 255, 255); 
+  text-align: justify; 
+
+  /* ie 7*/  
+  *width: 100%;  
+  *-ms-text-justify: distribute-all-lines;
+  *text-justify: distribute-all-lines;
+}
+
+.header:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  font-size:0;
+  line-height:0;
+}
+
 .Wrow {
     display: -ms-flexbox;
     display: flex;
@@ -74,6 +93,13 @@ hr.white-line {
   width: auto;
   padding: 0.8rem;
 }
+
+.Scolumnr {
+  float: right;
+  width: auto;
+  padding: 0.8rem;
+}
+
 
 @media screen and (max-width: 500px) {
   .column {
@@ -192,7 +218,7 @@ section h2 {
 
 .menu.btn-primary {
 	border-radius: 0;
-	box-shadow
+	box-shadow:rgba(0, 0, 0, 0.5);
 }
 
 .menu.btn-primary:focus {
