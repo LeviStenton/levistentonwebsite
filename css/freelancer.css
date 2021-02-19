@@ -82,6 +82,12 @@ hr.white-line {
     margin-left: -15px;
 }
 
+.Srow {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .Srow::after {
   content: "";
   clear: both;
